@@ -1,0 +1,23 @@
+{
+  "name": "todayisthatday",
+  "description": "TodayIsThatDay is a twitter bot posting a special holiday every 24hours",
+  "version": "1.0.0",
+  "main": "src/client.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "holiday",
+    "twitterbot",
+    "twitter-bot"
+  ],
+  "author": "Mezo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-cron": "^3.0.1",
+    "twit": "^2.2.11"
+  }
+}
