@@ -16,3 +16,7 @@ TWITTER_ACCESS_TOKEN=
 TWITTER_ACCESS_TOKEN_SECRET=
 ```
 Get those over at https://developer.twitter.com/
+
+## Credits
+
+💘 Special thanks to [@derekgauger](https://github.com/derekgauger) for the idea and the holiday json file. Derek also provided some of the base code for this repo.
