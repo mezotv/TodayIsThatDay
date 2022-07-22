@@ -1,5 +1,6 @@
 const Twitter = require('./twit');
 const data = require("./data/holidays.json");
+const texts = require("./data/text.json");
 const cron = require('node-cron')
 
  cron.schedule("0 1 0 * * *", function () {
@@ -13,7 +14,9 @@ const cron = require('node-cron')
     const month = today.toLocaleString('en', { month: 'long' })
     const day = today.getDate()
 
-    const tweet = "Today is the" + " " + data[month][day][Math.floor(Math.random() * (data[month][day].length))] + "!" + " " + "#Holiday"
+    const text = texts.text[Math.floor(Math.random() * (texts.text.length))]
+
+    const tweet = text + " " + data[month][day][Math.floor(Math.random() * (data[month][day].length))] + "!" + " " + "#Holiday #TodayIsThatDay"
 
     
 Twitter.post('statuses/update', { status:  tweet }, function(err, data, response) {
@@ -21,4 +24,3 @@ Twitter.post('statuses/update', { status:  tweet }, function(err, data, response
 })
 
 }
-post_Holiday()
