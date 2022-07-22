@@ -1,7 +1,7 @@
 {
   "name": "todayisthatday",
   "description": "TodayIsThatDay is a twitter bot posting a special holiday every 24hours",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "src/client.js",
   "scripts": {
     "test": "node ."
