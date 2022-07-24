@@ -1,9 +1,9 @@
 const Twitter = require('./twit');
 const data = require("./data/holidays.json");
 const texts = require("./data/text.json");
-const cron = require('node-cron')
+const { schedule } = require('node-cron')
 
- cron.schedule("0 1 0 * * *", function () {
+ schedule("0 1 0 * * *", function () {
   post_Holiday()
 });
 
