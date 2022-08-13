@@ -1,4 +1,4 @@
-const { post } = require('./twit');
+const t = require('./twit');
 const data = require("./data/holidays.json");
 const { text } = require("./data/text.json");
 const { schedule } = require('node-cron')
@@ -20,8 +20,7 @@ const { schedule } = require('node-cron')
     const tweet = text + " " + data[month][day][Math.floor(Math.random() * (data[month][day].length))] + "!" + " " + "#Holiday #TodayIsThatDay"
 
   // Post the tweet with the furrent holiday   
- post('statuses/update', { status:  tweet }, function(err, data, response) {
+ t.post('statuses/update', { status:  tweet }, function(err, data, response) {
  console.log(err)
 })
-
 }

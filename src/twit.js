@@ -6,7 +6,6 @@ const Client = new twit({
     consumer_secret: process.env.TWITTER_API_SECRET,
     access_token: process.env.TWITTER_ACCESS_TOKEN,
     access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET,
-    trusted_cert_fingerprints: process.env.TRUSTED_CERT_FINGERPRINTS
 });
 
 module.exports = Client;
