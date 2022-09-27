@@ -1,13 +1,14 @@
-# TodayIsThatDay
- TodayIsThatDay is a twitter bot posting a special holiday every 24hours
- 
- You can see this bot running on [twitter](https://twitter.com/TodayIsThatDayB)
- 
- ## Preview
- 
-![twitterbot](https://cdn.discordapp.com/attachments/926292185748496446/999489611959107684/unknown.png)
 
-## Env variables
+# TodayIsThatDay Twitter bot
+
+TodayIsTheDay is a Twitter  bot posting a special holiday every 24 hours
+
+![Logo](https://i.imgur.com/7OPHTvj.jpg)
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
 
 ```
 TWITTER_API_KEY=
@@ -16,7 +17,7 @@ TWITTER_ACCESS_TOKEN=
 TWITTER_ACCESS_TOKEN_SECRET=
 ```
 Get those over at https://developer.twitter.com/
+## Screenshot
 
-## Credits
+![App Screenshot](https://cdn.discordapp.com/attachments/926292185748496446/999489611959107684/unknown.png)
 
-💘 Special thanks to [@derekgauger](https://github.com/derekgauger) for the idea and the holiday json file. Derek also provided some of the base code for this repo.
