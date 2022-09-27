@@ -21,3 +21,6 @@ Get those over at https://developer.twitter.com/
 
 ![App Screenshot](https://cdn.discordapp.com/attachments/926292185748496446/999489611959107684/unknown.png)
 
+## Credits
+
+💘 Special thanks to [@derekgauger](https://github.com/derekgauger) for the idea and the holiday json file. Derek also provided some of the base code for this repo.
